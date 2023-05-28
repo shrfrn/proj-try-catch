@@ -7,7 +7,7 @@ function onDrink() {
     // try {
     //     console.log('foo() was successful')
     // } catch (err) {
-    //     console.log('Big Problem: ', err)
+    //     alert('Big Problem: ' + err.message)
     // }
     console.log('Done')
 }
@@ -24,13 +24,3 @@ function foo() {
         // Never sliently ignore errors
     }
 }
-
-
-
-
-
-
-
-
-
-

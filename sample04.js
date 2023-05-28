@@ -7,7 +7,7 @@ function onDrink() {
         foo()
         console.log('foo() was successful')
     } catch(err) {
-        console.log('External Handler:', err)
+        alert(err.message)
     }
     console.log('Done')
 }
@@ -17,11 +17,9 @@ function foo() {
     try {
         num.toLowerCase()
         console.log('Never run')
-        // baba = 9
-        // return 17
     } catch (err) {
         console.log('Had a problem:', err.message)
-        throw err
+        // throw err
     } finally {
         console.log('Always run')
     }
