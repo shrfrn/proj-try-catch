@@ -5,7 +5,7 @@
 function onDrink() {
     doSomethingRisky()
         .then(res => console.log('Success: ', res))
-        .catch(err => console.error('Error: ', err.message))
+        .catch(err => alert(err))
         .finally(() => console.log('Always run'))
 }
 
