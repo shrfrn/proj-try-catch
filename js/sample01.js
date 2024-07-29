@@ -2,7 +2,7 @@
 
 // The Basics
 
-function onDrink() {
+function runDemo() {
     var num = 4
     num.toLowerCase() 
     

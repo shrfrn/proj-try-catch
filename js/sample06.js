@@ -7,7 +7,7 @@ window.onerror = (err) => {
     console.log('Reporting to Logging server')
 }
 
-function onDrink() {
+function runDemo() {
     unknown = 100
     try {
         if(true) throw 'baba'

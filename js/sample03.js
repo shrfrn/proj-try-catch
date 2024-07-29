@@ -1,7 +1,7 @@
 'use strict'
 
 // ReferenceError, SyntaxError and custom-errors
-function onDrink() {
+function runDemo() {
     // Throws ReferenceError
     // var x = y + 1
     

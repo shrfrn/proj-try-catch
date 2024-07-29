@@ -2,7 +2,7 @@
 
 // Throwing from functions
 
-function onDrink() {
+function runDemo() {
     foo()
     // try {
     //     console.log('foo() was successful')

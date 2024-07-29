@@ -2,7 +2,7 @@
 
 // Finally
    
-function onDrink() {
+function runDemo() {
     try {
         foo()
         console.log('foo() was successful')

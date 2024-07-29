@@ -3,7 +3,7 @@
 // Lets move closer to a real-life sceanrio
 // but keep things syncronous here for now
 
-function onDrink() {
+function runDemo() {
 
     try {
         saveNumToDB(100)
